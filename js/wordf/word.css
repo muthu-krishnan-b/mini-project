@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("High.webp");
+    background-repeat:no-repeat,repeat;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+}
+#h2{
+    justify-content: center;
+
+}
+#address{
+    border-radius: 5px;
+    margin-left: 100px;
+    height: 300px;
+    width: 400px;
+    border: 1px solid whitesmoke;
+    background-color:  #e5eaf5;
+   
+    
+
+}
+address:hover{
+    cursor: pointer;
+
+}
+#container{
+    height: 600px;
+    width:600px;
+    border: 1px solid rgb(82, 137, 108);
+    margin: 250px auto;
+    background-color: #a0d2eb;
+    border-radius: 9px;
+    border:0px 0px 10px
+               0px 0px 30px
+               0px 0px 60px;
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+button{
+    font-size: 1em;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(190, 146, 146);
+}
+p{
+    background-color: black;
+    font-size: 1em;
+    
+}

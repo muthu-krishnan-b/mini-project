@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background-image: url("thumbbig-1339874.webp");
+    display: flex;
+    background-repeat: no-repeat,repeat;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    color: rgb(213, 13, 13);
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#input{
+    padding: 8px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 185, 74);
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    background-color: rgb(180, 106, 180);
+    margin-left: 180px;
+}
+#input:hover{
+    cursor: pointer;
+    background-color: rgb(156, 122, 188);
+}
+#container{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(224, 151, 163);
+    border-radius: 5px;
+    margin: 200px auto;
+    border: 0px 0px 10px
+            0px 0px 30px
+            0px 0px 60px;
+
+}
+button{
+    letter-spacing: 1px;
+    background-color: rgb(180, 106, 180);
+    padding-left: 5px;
+    margin-left: 330px;
+    font-weight: bolder;
+    border-radius: 6px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(156, 122, 188);
+}
+hr{
+    margin-top: 150px;
+    width: 200px;
+}
+#result{
+    background-color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}

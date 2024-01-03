@@ -1,0 +1,28 @@
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+ol{
+        list-style-type:lower-alpha;
+}
+li{
+    margin: 10px;
+}
+table{
+    width: 50px;
+    margin:auto;
+    border-collapse:collapse ;
+}
+th{
+    text-transform: capitalize;
+    text-align: left;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    border: 1px solid black;
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
