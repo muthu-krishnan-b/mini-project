@@ -1,0 +1,130 @@
+body,h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+:root{
+    --white:rgb(227, 225, 225);
+    --yellow:rgb(210, 210, 111);
+    --green:rgb(106, 182, 106);
+    --red:rgb(202, 91, 91);
+}
+.landing{
+    background-image: url("./chily.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--white);
+
+}
+header a{
+    text-decoration: none;
+    color: var(--yellow );
+}
+header{
+    display: flex;
+    padding: 1em;
+}
+#logo{
+    flex: 3;
+    font-size: 1.2em;
+}
+nav{
+    flex: 2;
+    display: flex;
+
+}
+nav a{
+    flex: 1;
+}
+nav a:hover{
+    color: green;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 50vh ;
+    justify-content: center;
+    padding: 2em;
+    
+
+}
+.main div{
+    margin: .75em;
+}
+.tagline1{
+    color:var(--red);
+    font-size: 40px;
+    font-size: bolder;
+    margin-right: 2em;
+}
+.tagline2{
+    color: var(--yellow);
+}
+.main button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding:.7em;
+    background-color: var(--green);
+    color: var(--white);
+    border: 1px solid var(--green);
+  
+    
+
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(100,100,100);
+    color: var(--white);
+    grid: template columns 44px repeat(auto-fill,100px)300px;
+}
+#menuheading,#locheading{
+    background-color: rgb(100,100,100);
+    font-size: 2.5em;
+    color: rgb(193, 61, 61);
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+
+}
+.menu td:nth-child(2){
+    flex: 1;
+    justify-self: right;
+
+}
+
+.locations{
+    background-color: rgb(100,100,100);
+    color: var(--white);
+    display: flex;
+    display: wrap;
+    flex-wrap: wrap;
+
+}
+.locations h2{
+    color: var(--red);
+    margin-bottom: .8em;
+}
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 230px;
+}
+footer{
+    background-color:black;
+    padding: .25em;
+    color: var(--white);
+}
